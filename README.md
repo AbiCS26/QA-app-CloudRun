@@ -107,6 +107,7 @@ The backend is configured to accept requests from the frontend on `http://localh
 
 ---
 
-## 📃 License
+## Docker build and deploy commands
 
-MIT License
+- docker build --platform linux/amd64 -t us-central1-docker.pkg.dev/cloudrun-workshop-2025/docker-images/abilash-frontend:latest .
+-  docker push us-central1-docker.pkg.dev/cloudrun-workshop-2025/docker-images/abilash-frontend:latest

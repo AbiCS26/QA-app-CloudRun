@@ -10,7 +10,7 @@ export default function LoginPage({ onLogin }) {
     const trimmedPassword = password.trim();
   
     if (!trimmedUsername || !trimmedPassword) {
-      setErrorMessage("Username and password cannot be empty.");
+      setErrorMessage("Username and password cannot be empty!");
       return;
     }
   
